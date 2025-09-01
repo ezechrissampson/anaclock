@@ -158,3 +158,32 @@ body.dark {
       width: 50px;
       height: 50px;
 }
+
+
+@media screen and (max-width: 745px) {
+
+
+  .parentContainer .clockContainer .clock{
+    width: 320px;
+    height: 320px;
+  }
+
+  .parentContainer .clockContainer .clock .indicator .hand.second{
+  height: 90px;
+  width: 4px;
+}
+
+  .parentContainer .clockContainer .clock .indicator .hand.minute{
+  height: 100px;
+  width: 5px;
+}
+
+.parentContainer .clockContainer .clock .indicator .hand.hour{
+  height: 80px;
+  width: 8px;
+}
+
+.parentContainer .locationContainer{
+ width: 430px;
+}
+}
